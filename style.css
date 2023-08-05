@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+  --sixteen: 16px;
+  --raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  font-family: var(--raleway);
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--very-dark-blue);
+  margin-left: 20px;
+  font-size: var(--sixteen);
+}
+h1,
+button {
+  font-family: var(--raleway);
+}
+.section1 {
+  display: flex;
+  padding: 0 40px;
+}
+
+.section1 .part1 {
+  width: 50%;
+  align-self: center;
+}
+.section1 .part1 h1 {
+  font-size: 40px;
+}
+.section1 .part1 p {
+  width: 90%;
+  margin-top: 20px;
+  font-size: var(--sixteen);
+}
+.input-box {
+  width: 80%;
+  display: flex;
+  margin-top: 10px;
+}
+.section1 .part1 .aa input {
+  font-size: var(--sixteen);
+  padding: 10px;
+  width: 100%;
+}
+
+.section1 .part1 .input-box .aa{
+    /* border:1px solid black; */
+    width: 100%;
+}
+.section1 .part1 button {
+  white-space: nowrap;
+  
+  margin-left: 10px;
+  background-color: var(--bright-blue);
+  color: white;
+  padding: 10px 30px;
+  font-size: var(--sixteen);
+  border: none;
+}
+
+.section1 .part2 {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.section1 .part2 img {
+  width: 100%;
+}
+
+.desktop-curve {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.section2 {
+  border: none;
+  margin-top: -5px;
+  display: flex;
+  background-color: var(--light-grayish-blue);
+  padding: 0 40px;
+  padding-bottom: 20px;
+}
+
+.section2 .part1 {
+  width: 55%;
+}
+
+.section2 .part1 h2 {
+  font-family: var(--raleway);
+  font-size: 40px;
+}
+
+.section2 .part1 p {
+  margin-top: 20px;
+  width: 80%;
+}
+.link {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: var(--sixteen);
+}
+.link img {
+  margin-left: 10px;
+}
+.section2 .part1 a {
+  display: inline;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: var(--moderate-cyan);
+}
+
+.section2 .part1 .card {
+  margin-top: 20px;
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  box-shadow: rgba(9, 30, 66, 0.2) 0px;
+  border-radius: 20px;
+}
+.section2 .part1 .card .avatar-text {
+  margin-top: 20px;
+  display: flex;
+}
+
+.section2 .part1 .card .avatar-text > div > :first-child {
+  font-weight: 700;
+}
+
+.section2 .part1 .card .avatar-text > div > :last-child {
+  margin-top: 6px;
+  /* white-space: nowrap; */
+}
+
+.section2 .part1 .card .avatar-text img {
+  margin-right: 10px;
+}
+.section2 .part1 .card p {
+  margin: 0;
+}
+
+.section2 .part2 {
+  margin-left: 20px;
+  width: 45%;
+}
+
+.section2 .part2 img {
+  width: 100%;
+}
+
+.avatar-text img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.section3 {
+  background-color: var(--desaturated-blue);
+  color: white;
+  display: flex;
+  padding: 70px 40px;
+  justify-content: space-between;
+}
+
+.section3 .part1 {
+  width: 40%;
+}
+
+.section3 .part2 {
+  width: 40%;
+}
+
+.section3 .part2 input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: var(--sixteen);
+}
+
+.section3 .part2 button {
+  padding: 10px 40px;
+  background-color: var(--bright-blue);
+  border: none;
+  color: white;
+  font-size: var(--sixteen);
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.section3 h2 {
+  font-family: var(--raleway);
+  font-size: 40px;
+}
+.section3 p {
+  font-size: var(--sixteen);
+  line-height: 120%;
+  margin-top: 20px;
+}
+
+footer {
+  padding: 40px 80px 40px 40px;
+  background-color: var(--very-dark-blue);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  margin-left: 40px;
+  margin-top: 100px;
+  list-style: none;
+}
+
+footer ul li {
+  margin-top: 20px;
+}
+footer .logo {
+  color: white;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.rounded{
+    border:2px solid white; 
+    width: 30px;
+    height: 30px;
+    border-radius: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm{
+    flex-direction: row;
+    display: flex;
+    column-gap: 10px;
+}
+.mobile-curve{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+.mobile-curve{
+    display: block;
+    width: 100%;
+}
+.desktop-curve{
+    display: none;
+}
+    header{
+        padding-left: 0;
+        padding-right: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    header .logo img{
+        width: 70px;
+    }
+
+  .section1 {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    row-gap: 20px;
+  }
+
+  .section1 .part1 {
+    width: 100%;
+  }
+  .section1 .part1 h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .section1 .part1 p {
+    text-align: center;
+  }
+  .section1 .part1 button{
+    width: 100%;
+  }
+  .section1 .part2 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .input-box {
+    flex-direction: column;
+    width: 100%;
+  }
+  .section1 .part1 .input-box button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .section2{
+    flex-direction: column-reverse;
+    padding: 0;
+    row-gap: 20px;
+    
+  }
+  .section2 .part1{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section2 .part2{
+    margin: 0;
+  }
+  .section2 .part1 h2{
+    text-align: center;
+    font-size: var(--sixteen);
+  }
+  .section2 .part1 p{
+    width: 100%;
+  }
+  .section2 .part1 .link a{
+    text-align: center;
+    margin-left:  auto;
+    margin-right: auto;
+
+  }
+  .section2 .part1 .card{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .section2 .part1 .card>p{
+    margin-top: 10px;
+  }
+  .section2 .part2{
+    width: 100%;
+  }
+
+  .section3{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    row-gap: 20px;
+  }
+  .section3 .part2 button{
+    width: 100%;
+  }
+  .section3 .part1, .section3 .part2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section3 .part1 h2{
+    font-size: var(--sixteen);
+    text-align: center;
+  }
+  .section3 .part1 p{
+    text-align: center;
+  }
+  footer{
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+  }
+
+  footer>div{
+    margin:  auto;
+    margin-top: 20px;
+    width: 90%;
+    /* border:1px solid white */
+    
+  }
+
+  footer ul{
+    margin: 0;
+  }
+  footer .sm{
+   
+     display: flex;
+     justify-content: center;
+     column-gap: 20px;
+  }
+}
+
+.section1 .part1 button, .section3 .part2 button{
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+
+}
+.section1 .part1 button:hover, .section3 .part2 button:hover{
+    background-color: hsla(224, 93%, 58%, 0.836)
+}
+
