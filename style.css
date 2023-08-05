@@ -417,3 +417,24 @@ footer .logo {
     background-color: hsla(224, 93%, 58%, 0.836)
 }
 
+footer ul li{
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+
+}
+
+footer ul p span{
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+}
+footer ul p span:hover{
+   border-color: hsla(224, 93%, 58%, 0.836);
+   color:hsla(224, 93%, 58%, 0.836);
+   
+
+}
+
+footer ul li:hover{
+   color: var(--bright-blue);
+   
+}
